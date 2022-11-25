@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@media screen and (min-width: 300px){
+    
+    html {
+        margin: 0 ;
+        background-color: rgb(255, 245, 204);
+        
+    }
+
+    body {
+        max-width: 100%;
+    }
+
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    h1 {
+        margin: 0.5rem 0;
+        padding-left: 1rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: black;
+        font-size: small;
+    }
+
+    .handcraft {
+        display: block;
+        text-align: center;
+        padding: 1rem 0 12px 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: small;
+    }
+
+    input {
+        margin-left: 30%;
+    }
+
+    .h2_h {
+        padding: 0 0 50px 100px;
+        font-size: small; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    .h2 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    p {
+        font-size:x-small;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .last_1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        justify-content: space-evenly;
+        gap: 0.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .last {
+        border: 1px solid black;
+        border-radius: 1px;
+        padding: 15px;
+    }
+
+    .input {
+        text-align: center;
+        font-size: xx-small;
+    }
+
+    .asa {
+        display: inline-block;
+        margin-top: 0.5rem;
+        margin-inline: 10rem;
+        text-align: center;
+        background-color: rgb(232, 196, 35);
+        padding: 0.4rem;
+        font-weight: bolder;
+    }
+
+    .asd {
+        font-size: small;
+        display: flex;
+        flex-grow: 1;
+        margin: auto;
+        width: 70px;
+        border-radius: 2px;
+        padding: 0.4rem;
+        background-color: rgb(232, 196, 35);
+        border: 1px solid rgb(255, 208, 0);
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .name {
+        font-size: x-small;
+        padding-bottom: 7px;
+        font-weight: bolder;
+    }
+
+    .money {
+        padding-bottom: 7px;
+    }
+
+    .links {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 0.5rem;
+        padding: 0.8rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: x-small;
+        font-weight: bolder;
+    }
+
+    .nowrap {
+        white-space: nowrap;
+    }
+
+    .footer {
+        background-color: rgb(192, 188, 188);
+        padding: 12px;
+
+    }
+
+    footer {
+        padding-bottom: 9rem;
+    }
+
+    .foot {
+        display: flex;
+        justify-content: end;
+    }
+
+    .er {
+        gap: 0.7rem;
+        padding-bottom: 8px;
+    }
+}
