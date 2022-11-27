@@ -2,15 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 @media screen and (min-width: 300px){
     
     html {
-        margin: 0 ;
-        background-color: rgb(255, 245, 204);
-        
+        margin: 0;
+        background-color: rgb(255, 245, 204);   
     }
 
     body {
@@ -27,9 +25,8 @@
         list-style-type: none;
     }
 
-    h1 {
-        margin: 0.5rem 0;
-        padding-left: 1rem;
+    .header_h1 {
+        padding: 0.5rem;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: black;
         font-size: small;
@@ -43,15 +40,14 @@
         font-size: small;
     }
 
-    input {
-        margin-left: 30%;
-    }
-
     .h2_h {
         padding: 0 0 50px 100px;
         font-size: small; 
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 
+    .h2_h:nth-child(3) {
+        padding-bottom: 0;
     }
 
     .h2 {
@@ -64,33 +60,29 @@
     }
 
     .last_1 {
-        display: flex;
-        flex-wrap: wrap;
-        flex-grow: 1;
-        justify-content: space-evenly;
-        gap: 0.5rem;
-        padding-bottom: 1.5rem;
-    }
-
-    .last {
-        border: 1px solid black;
-        border-radius: 1px;
-        padding: 15px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 13px;
+        margin: 15px;
     }
 
     .input {
         text-align: center;
-        font-size: xx-small;
+        font-size: x-small;
     }
 
-    .asa {
-        display: inline-block;
-        margin-top: 0.5rem;
-        margin-inline: 10rem;
-        text-align: center;
+    .get_started {
+        display: flex;
+        width: 7rem;
+        justify-content: center;
+        margin: auto;
         background-color: rgb(232, 196, 35);
-        padding: 0.4rem;
         font-weight: bolder;
+        padding: 0.5rem;
+    }
+
+    .video_1 {
+        padding: 0 0 20px 100px;
     }
 
     .asd {
@@ -110,20 +102,35 @@
     }
 
     .name {
-        font-size: x-small;
-        padding-bottom: 7px;
+        background-color: rgb(192, 188, 188);
+        text-align: center;
+        font-family:Tahoma, sans-serif;
+        display: block;
+        font-size: small;
+        padding: 7px 0 7px 0;
         font-weight: bolder;
+        border-bottom: 1px solid black;
+    }
+
+    .last {
+        display: grid;
+        grid-auto-columns: minmax(120px, auto);
+        border: 1px solid black;
+        border-radius: 1px;  
+        padding: 4px 4px 20px;
     }
 
     .money {
-        padding-bottom: 7px;
+        padding: 7px;
+        font-size: large;
+        font-weight:bolder;
     }
 
     .links {
         display: flex;
         justify-content: space-evenly;
         gap: 0.5rem;
-        padding: 0.8rem;
+        padding: 0.5rem;
     }
 
     a {
@@ -141,7 +148,6 @@
     .footer {
         background-color: rgb(192, 188, 188);
         padding: 12px;
-
     }
 
     footer {
